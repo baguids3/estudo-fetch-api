@@ -1,0 +1,23 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "API RestFull",
+  "main": "server.ts",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@paralleldrive/cuid2": "^2.2.0",
+    "@types/node": "^18.15.13",
+    "tsx": "^3.12.6",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.2.1",
+    "bcryptjs": "^2.4.3",
+    "fastify": "^4.15.0",
+    "zod": "^3.21.4"
+  }
+}
