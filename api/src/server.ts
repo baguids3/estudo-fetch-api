@@ -41,7 +41,7 @@ async function bootstrap() {
     }
   })
 
-  fastify.listen({ port: 7777, host: '192.168.15.5' /*host: "0.0.0.0"*/});
+  fastify.listen({ port: 7777, /*host: "0.0.0.0"*/});
   console.log("Server running on port 7777, JAEEEE!!!");
 
 }
