@@ -12,7 +12,7 @@ async function handleSignUp(event) {
   const reqHeader = new Headers();
   reqHeader.append('Content-Type', 'application/json');
 
-  const response = await fetch('http://192.168.15.5:7777/signup', {
+  const response = await fetch('http://localhost:7777/signup', {
     method: 'POST',
     body: JSON.stringify(userData),
     headers: reqHeader,
