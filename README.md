@@ -9,7 +9,7 @@ O Website possui um formulário com três elementos <input>(nome, email e senha)
 - HTML, CSS and JavaScript para o website
 - Node.js, Typescript and Fastify para a API
 
-**Instalação: **
+**Instalação:**
 
 Para rodar a aplicação, clone o projeto usando o seguinte comando no console:
 ```
